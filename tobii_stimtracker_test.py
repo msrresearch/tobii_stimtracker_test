@@ -1,9 +1,6 @@
 from pygaze import libscreen, eyetracker
 import time
 import argparse
-import csv
-import matplotlib.pyplot as plt
-from numpy import mean, std
 
 parser = argparse.ArgumentParser(description='A small test for pygaze using tobii eyetracker')
 parser.add_argument('-c', '--no_calibrate', default=False, action='store_true', help='skip calibration')
